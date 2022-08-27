@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7c8663a8f9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="headerContainer">
+            <h1>movie app</h1>
+            <div>
+                <button class="create btn">create</button>
+                <button class="sort btn">sort</button>
+                <button class="comedy btn">comedy</button>
+                <button class="action btn">action</button>
+                <button class="adventure btn">adventure</button>
+                <button class="animation btn">animation</button>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="display">
+            <div class="popUp">
+                <i class="fa-solid fa-x close-icon"></i>
+                <form class="form">
+                    <input type="text" class="moviename input" placeholder="Movie Name">
+                    <input type="text" class="actor input" placeholder="Actors Name">
+                    <input type="text" class="directorName input" placeholder="Director Name">
+                    <input type="text" class="trailer input" placeholder="Trailer">
+                    <input type="text" class="imdb input" placeholder="Imdb">
+                    <input type="text" class="category input" placeholder="category">
+                    <button class="submit">submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="container"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
